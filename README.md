@@ -1,5 +1,6 @@
 # textdiff
-An small line-by-line text diff that can be consumed by REST
+An small line-by-line text diff that can be consumed by REST that I hacked in two hours.
+It attempts to replicate the functionality offered by https://www.diffnow.com/.
 
 The code could be much cleaner, but I've commented it explaining the most relevant parts of the process step by step. All the logic is in helpers/textdiff.js, the rest is just express.js boilerplate.
 
